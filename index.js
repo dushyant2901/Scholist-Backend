@@ -9,7 +9,7 @@ const teacherRouter = require("./routes/teachers.router");
 
 const cors = require("cors");
 const corsOptions = {
-  origin: ["http://localhost:3000"],
+  origin: ["http://localhost:3000","https://scholist-7nvg.onrender.com"],
   credentials: true,
   optionSuccessStatus: 200,
 };
